@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import { Montserrat, Manrope } from 'next/font/google'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
@@ -23,7 +21,6 @@ export default function RootLayout({
     <html lang="tr" className="scroll-smooth">
       <body className={`${manrope.variable} ${montserrat.variable} font-sans bg-[#f9f9f9] text-[#0a0a0a] antialiased`}>
         {children}
-        <SpeedInsights />
       </body>
     </html>
   )
