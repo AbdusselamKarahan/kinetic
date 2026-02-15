@@ -2,14 +2,17 @@ import type { Metadata } from 'next'
 import { Montserrat, Manrope } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
 
 export const metadata: Metadata = {
   title: 'KINETIC | Spor ve Performans Yönetimi',
-  description: 'Isparta profesyonel atletizm eğitimleri ve performans koçluğu.',
+  description: 'Profesyonel atletizm eğitimleri ve performans koçluğu.',
 }
+
+
 
 export default function RootLayout({
   children,
@@ -25,3 +28,4 @@ export default function RootLayout({
     </html>
   )
 }
+

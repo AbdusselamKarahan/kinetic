@@ -344,7 +344,7 @@ export default function Home() {
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="pl-0 lg:pl-12">
               <span className="text-base font-bold tracking-widest uppercase mb-4 block text-gray-500">Kurucu & Baş Antrenör</span>
-              <h2 className="text-5xl md:text-7xl font-display font-black mb-10 leading-none tracking-tighter">Adın <br/>Soyadın.</h2>
+              <h2 className="text-5xl md:text-7xl font-display font-black mb-10 leading-none tracking-tighter">Abdusselam <br/>KARAHAN.</h2>
               <div className="space-y-6 text-black/80 font-medium text-xl leading-relaxed mb-12">
                 <p>Burdur Mehmet Akif Ersoy Üniversitesi (MAKÜ) Beden Eğitimi ve Spor Öğretmenliği akademik altyapısı ile sahada geçen 10 yılı aşkın sporculuk kariyerini sentezleyen vizyoner bir yaklaşım.</p>
                 <p>Klasik antrenman metotlarının ötesinde, atletizm branşının temel mekaniklerini tüm spor disiplinlerine entegre ediyoruz. 2. Kademe Temel Antrenörlük vizyonuyla, sporu bir hobi olmaktan çıkarıp Isparta'da elit performans yönetimine dönüştürüyoruz.</p>
