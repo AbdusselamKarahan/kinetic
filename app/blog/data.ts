@@ -1,5 +1,134 @@
 export const blogPosts = [
   {
+    id: "aktif-toparlanma",
+    title: "Aktif Toparlanma: Antrenmandan Sonra Doğru Olan Şey Hiçbir Şey Yapmamak Mı?",
+    category: "Toparlanma",
+    date: "22 Mart 2026",
+    image: "/blog1.jpg",
+    content: `
+      Antrenman sonrası vücudunuzun otomatik olarak "tamir" sürecine gireceğini düşünüyorsunuz, ama nasıl? Pasif dinlenme (kanepede yatmak) çoğu zaman sanıldığı kadar etkili değildir. Bilim, kan dolaşımını koruyan hafif aktiviteyi savunur — buna aktif toparlanma denir.
+
+      Aktif toparlanmada hedef kalp atımı maksimumun %30-50'si arasındadır. 10-15 dakikalık yavaş yürüyüş, hafif bisiklet veya yüzme; laktat birikimini hızla parçalar ve kas ağrısını (DOMS) %20'ye varan oranda azaltır. "Bitkin hissediyorum, hareket etmek istemiyorum" hissi mantıklı görünür ama 24 saat sonra ödeyeceğiniz bedeli düşünün.
+
+      Uyku ise performansın görünmez yarısıdır. 7-9 saat uyku, büyüme hormonu ve testosteron üretiminde kritik. Stanford Üniversitesi'nin basketbol oyuncuları üzerinde yaptığı çalışma, 5 hafta boyunca 10 saat uyumaya bırakılan oyuncuların sprint sürelerinde %5, üç-sayı isabetinde %9 iyileşme gösterdi. Tek bir gece 6 saatin altında uyku, ertesi gün performansını ortalama %12 düşürür.
+
+      Soğuk duş veya buz banyosu kısa vadede şişliği azaltır ama uzun vadede kas adaptasyonunu yavaşlatabilir. Bizim önerimiz: yarış/sınav haftasında kullan, kuvvet ve hipertrofi odaklı blokta kaçın.
+
+      Toparlanma planlanmazsa antrenman bir "stres yığını"na dönüşür. Akıllı toparlanma yapan bir sporcu, kontrolsüz çalışan rakibinden ortalama 3 kat daha hızlı gelişir. Yorgunluk gelişim değildir; gelişim, doğru yorgunluğun üzerine inşa edilen toparlanmadır.
+    `
+  },
+  {
+    id: "periyotlama-temel",
+    title: "Periyotlama 101: Yıl Boyu Aynı Antrenmanı Yapmak Neden Sizi Yavaşlatır?",
+    category: "Antrenman Bilimi",
+    date: "18 Mart 2026",
+    image: "/blog3.jpg",
+    content: `
+      "Bu hafta da aynı şeyleri yapacağız" — bu cümleyi her duyduğunuzda performansınızdan biraz daha kaybediyorsunuz. Vücut, sürekli aynı stres altında adapte olmayı bırakır. Gelişim için planlı çeşitlilik, yani periyotlama gerekir.
+
+      Periyotlama üç ana döngüden oluşur: makro (yıl), mezo (4-6 hafta) ve mikro (1 hafta). Her döngünün hacim (set × tekrar), yoğunluk (% 1RM) ve odak noktası (kuvvet, güç, dayanıklılık) farklıdır. Yıllık plan olmadan haftalık plan yazmak, harita olmadan rota çizmektir.
+
+      Klasik lineer model şöyle ilerler: önce hacim yüksek-yoğunluk düşük (genel hazırlık), sonra hacim azalır-yoğunluk artar (özel hazırlık), en sonunda yarış öncesi tepe noktası (peak). Modern sporcular için ise "blok periyotlama" tercih edilir: 2-3 hafta boyunca tek bir özelliğe (örneğin maksimal kuvvet) odaklanma, sonra bir sonraki bloka geçiş.
+
+      Deload haftası kritik ama atlanır. Her 3-5 haftada hacmi %40-60 düşürmek; merkezi sinir sistemi yorgunluğunu sıfırlar, sakatlık riskini azaltır ve psikolojik tazelenme sağlar. Pek çok amatör sporcu deload yapmadığı için 6 ayda bir sakatlanır veya platoya girer.
+
+      KINETIC'te her sporcu için yıllık plan oluşturulur: hedef tarih (sınav/maç), ara test günleri, mezo blok yapısı, deload haftaları. Plan olmadan antrenman, GPS olmadan yolculuk gibidir — belki bir yere varırsınız ama hızlı, doğru ve verimli olmaz.
+    `
+  },
+  {
+    id: "pomem-parkur-stratejisi",
+    title: "POMEM Parkurunda Saniye Kazandıran 5 Mikro Detay",
+    category: "Sınav Hazırlık",
+    date: "12 Mart 2026",
+    image: "/blog2.jpg",
+    content: `
+      POMEM parkurunda 1 saniye, başarı ile elenmek arasındaki farktır. Kondisyon önemli ama parkur başarısının yaklaşık %40'ı "küçük seçimler"den oluşur. İşte yıllık saha verimizden çıkardığımız 5 mikro detay:
+
+      1. Başlangıç pozisyonu: Düşük başlama duruşu (üç noktalı çıkış) ayakta beklemekten 0.3-0.5 saniye kazandırır. Vücut ağırlığı öne, baş aşağı, ilk üç adım kısa ve agresif. Çıkışta "patla" demek yerine "yere bas" mantığı.
+
+      2. Slalom çubukları: Çubuklara yakın geçiş, dönüş yarıçapını kısaltır. Çubuğun yanından 30-40 cm'den geçen aday, 60+ cm'den geçenden ortalama 0.8 saniye önde bitirir. Genel kural: çubuk omzunuza temas etmeyecek kadar yakın.
+
+      3. Sıçrama bölümü: Çift ayak iniş kontrolü için diz açısı 120° olmalı. Tam düz iniş diz kapağı üzerinde stres yaratır; aşırı bükülme bir sonraki adımı yavaşlatır. İndiğinde ses çıkarıyorsa, çok yüksekten geliyorsun demektir.
+
+      4. Top transferi: Topu havadan atmak yerine, küçük dirsek hareketiyle yan değişimi yapan adaylar kontrolü kaybetmez. Bir kez düşürülen top sınavda 3-5 saniye, ödeme planında ise belki bir yıl kaybettirir.
+
+      5. Bitiş çizgisi: Son 5 metrede yavaşlamak insan içgüdüsüdür. Çizgiyi 5 metre ileriymiş gibi görselleştir; rakibin önündeysen rahatla değil, son saniyeyi de bas.
+
+      Bu detayları antrenmanda binlerce kez tekrarladığında, sınav günü bedeniniz "düşünmeden" yapacaktır. Düşünmeyen vücut, kazanan vücuttur.
+    `
+  },
+  {
+    id: "vertical-jump-bilimi",
+    title: "Dikey Sıçrama: Patlayıcı Gücün Altın Standardı",
+    category: "Biyomekanik",
+    date: "5 Mart 2026",
+    image: "/blog1.jpg",
+    content: `
+      Bir sporcuyu tek bir test ile değerlendirseniz, dikey sıçrama (vertical jump) bilimsel olarak en güvenilir ölçüm aracıdır. Çünkü sıçrama; alt vücut maksimal kuvveti, sinir-kas koordinasyonu ve elastik enerji depolama yeteneğini aynı anda ölçer. NFL Combine'dan basketbol scouting'ine kadar herkes onunla ilgilenir.
+
+      Sıçrama hareketi üç fazdan oluşur: eksantrik (aşağı çömelme), amortizasyon (yön değişimi) ve konsantrik (yukarı patlama). Elit sporcular amortizasyon süresini 100 milisaniyenin altına indirebilir; amatörlerde bu süre 250-300ms civarındadır. Bu, kasın depoladığı elastik enerjiyi kullanma yeteneğinin doğrudan göstergesidir.
+
+      Sıçramayı geliştirmenin üç bilimsel yolu:
+      • Squat varyasyonları (back squat, front squat) → maksimal güç tabanı oluşturur
+      • Box jumps + depth jumps → reaktif kuvvet (stretch-shortening cycle) geliştirir
+      • Trap bar deadlift → posterior chain (kalça-hamstring) güçlendirir
+
+      Önemli uyarı: Aşırı plyometric çalışma diz tendonlarında stres birikimi yaratır. Haftada 2 oturum, oturum başı 80-120 yer kontağı (kontak: ayak yere her değdiğinde 1) ile sınırlı tutmak; gelişimi sürdürürken sakatlığı önler. Patellar tendinopati (sıçrama dizi) en yaygın overuse sakatlığıdır.
+
+      Doğru programla 8 haftada dikey sıçrama yüksekliğinizi 4-7 cm artırmak mümkündür. Bu, basketbolda smaç çizgisi, voleybolda blok yüksekliği, futbolda kafa topu avantajı, BESYO ve POMEM'de ise birkaç saniye demektir. Ölçülebilen geliştirilebilir.
+    `
+  },
+  {
+    id: "asiri-antrenman-belirtileri",
+    title: "Aşırı Antrenmanın 7 Gizli Belirtisi: Vücudunuz Çığlık Attığında",
+    category: "Antrenman Bilimi",
+    date: "26 Şubat 2026",
+    image: "/blog3.jpg",
+    content: `
+      "Daha çok çalış, daha çok kazan" — sosyal medyanın en zararlı yalanlarından biri. Bilim, aşırı antrenmanın (overtraining syndrome) gelişimi durdurmakla kalmayıp geri çevirdiğini gösteriyor. Vücudunuzun "yeter" demesinin 7 gizli yolu şunlar:
+
+      1. Sabah istirahat nabzı 5+ atım yüksek: Otonom sinir sistemi yorgunluğunun en güvenilir göstergesidir. Her sabah aynı saatte, yataktan kalkmadan ölç ve kayıt tut. 5 atım üstü = uyarı.
+
+      2. Sürekli kas ağrısı: 72 saatten uzun süren DOMS (geç başlangıçlı kas ağrısı), normal toparlanmadığınızı gösterir. Yarın aynı bölgeye antrenman yazılı? İptal et.
+
+      3. Uyku kalitesi düşüşü: İronik şekilde, çok yorgun olduğunda uykuya dalamaz veya gece sık uyanırsın. Kortizol-melatonin dengesinin bozulduğunun işaretidir.
+
+      4. Hastalanma sıklığı: İki ayda üç veya daha fazla üst solunum yolu enfeksiyonu = bağışıklık çökmüş. Aşırı kortizol immün sistemi bastırır.
+
+      5. Performans platosu veya gerileme: Aynı yükü 3+ hafta art arda kaldıramama, daha az tekrar yapma. "Kötü gün" değil, sistem mesajı.
+
+      6. Motivasyon kaybı: Antrenman öncesi "gitmek istemiyorum" hissinin sürekli olması; performans odaklı kişilerde dopamin sisteminin yorulmasıdır.
+
+      7. İştah ve duygu durum değişimi: Tatlı atakları artar, sağlıklı yemekten zevk alınmaz. Ayrıca sebepsiz öfke veya hüzün belirir.
+
+      Çözüm karmaşık değil: 7-10 gün hacmi %50 düşür, yoğunluğu hafiflet, uyku ve kalori alımına odaklan. İki gözlem haftası sonrası kademeli geri dönüş. Vücudunuza sahip olduğunuz tek varlık olduğunu unutmayın — asla bedavaya satılmaz.
+    `
+  },
+  {
+    id: "performans-beslenmesi",
+    title: "Antrenman Öncesi & Sonrası Beslenme: Saate Göre Bilimsel Rehber",
+    category: "Beslenme",
+    date: "18 Şubat 2026",
+    image: "/blog2.jpg",
+    content: `
+      "Ne yediğiniz değil, ne zaman yediğiniz" — performans beslenmesinin en az anlaşılan kuralı. Doğru zamanda doğru besin, %15-25 daha verimli antrenman demektir. Saate göre rehber:
+
+      Antrenmandan 2-3 saat önce: Kompleks karbonhidrat + orta düzey protein. Örnek: yulaf + muz + yumurta, ya da tam buğday makarna + tavuk göğsü. Hedef: 1g/kg karbonhidrat, 0.3g/kg protein. Yağı düşük tut çünkü sindirimi yavaşlatır ve kanı kaslardan alıp mideye gönderir.
+
+      Antrenmandan 30-60 dakika önce: Kolay sindirilen karbonhidrat. Bir muz, üç hurma veya küçük bir spor barı. Aç hissetmiyorsan zorla yeme — sadece su.
+
+      Antrenman sırasında (60+ dakika sürüyorsa): Her 30 dakikada 30-60 g karbonhidrat (spor içeceği, jel, hurma). Sıvı için her 15-20 dakikada 150-250 ml. Kısa antrenmanlarda ek besine gerek yok, sadece su.
+
+      Antrenmandan hemen sonra (0-30 dakika "anabolik pencere"): 20-40 g hızlı emilen protein (whey, yumurta beyazı, süt) + 1 g/kg karbonhidrat. Süt aslında en iyi spor içeceğidir: protein-karbonhidrat oranı, elektrolit ve sıvı dengesi mükemmel.
+
+      Antrenmandan 2-3 saat sonra: Tam öğün — protein, karbonhidrat, sebze ve sağlıklı yağ. Bu noktada özel formül yok; sadece kaliteli, dengeli yemek.
+
+      Hidrasyon: Antrenman öncesi 500 ml, antrenman sırasında her saat 500-750 ml, antrenman sonrası kaybedilen kilonun her kg'ı için 1.5 L su. Sabah idrar renk skalasında 1-3 arası (açık sarı) hedef. Koyu sarı = dehidrasyon başlamış.
+
+      Bunlar genel kurallar; bireysel beslenme planı için diyetisyen şart. KINETIC'te ekibimiz sporcunun metabolik ihtiyaçlarını ölçer ve plan oluşturur. Yiyecek bir araçtır, doğru kullanıldığında performansın altıncı vitesidir.
+    `
+  },
+  {
     id: "sprint-mekanigi",
     title: "Sprint Mekaniği: Neden Sadece Hızlı Koşmaya Çalışmak İşe Yaramaz?",
     category: "Biyomekanik",
@@ -35,40 +164,28 @@ export const blogPosts = [
     id: "kuvvet-ve-surat",
     title: "Hızın Anahtarı Kuvvette mi Gizli? Kuvvet Antrenmanlarının Sürate Olan Etkisi",
     category: "Antrenman Bilimi",
-    date: "14 Şubat 2026",
+    date: "5 Şubat 2026",
     image: "/blog3.jpg",
     content: `
-      "Sporda başarıya giden yolda "sürat" her zaman belirleyici bir faktör olmuştur. Futbol sahasından atletizm pistine kadar her branşta, sporcuların ve antrenörlerin aklındaki en büyük soru şudur: Sadece koşarak hızlanabilir miyim, yoksa ağırlık salonunda harcanan zaman beni daha hızlı yapar mı?
-Bilimsel araştırmalar, bu sorunun cevabının "evet" olduğunu, ancak bu ilişkinin sandığımızdan daha karmaşık detaylar içerdiğini göstermektedir. Bu yazıda, kuvvet antrenmanlarının (maksimal kuvvet, pliyometrik ve direnç çalışmaları) sürat performansı üzerindeki etkilerini inceleyen akademik çalışmaları mercek altına alıyoruz.
-1. Temel Teori: Maksimal Kuvvet ve Sürat İlişkisi
-Sürat, genel tanımıyla vücudun bir yerden bir yere en kısa sürede yer değiştirebilme yeteneğidir. Ancak bu yetenek, kasların üretebildiği kuvvetten bağımsız değildir. Yapılan araştırmalar, maksimal kuvvetin (bir sporcunun bir defada kaldırabildiği en yüksek ağırlık), sürat ve güç üretiminin temelini oluşturduğunu göstermektedir.
-Elazığ Spor Kulübü futbolcuları üzerinde yapılan bir yüksek lisans tezinde, sporcuların ortalama kuvvet değerlerinin, sürat performanslarının yaklaşık %24,8'ini açıkladığı tespit edilmiştir. Bu çalışma, ortalama kuvvetteki 1 birimlik artışın, sürat performansında %1,4 oranında bir iyileşmeye yol açtığını ortaya koymuştur. Özellikle bacak ekstansiyon (itme) kuvvetindeki artışın sürate katkısı %1,5 gibi önemli bir orandadır.
-2. Pliyometrik Antrenmanlar: Kasları Patlayıcı Hale Getirmek
-Sadece ağırlık kaldırmak yeterli değildir; kuvvetin hıza dönüşmesi gerekir. İşte burada "Pliyometrik Antrenmanlar" (sıçrama egzersizleri) devreye girer. Pliyometrik çalışmalar, kasın kasılma ve gevşeme döngüsünü kullanarak kas gücü kapasitesini artırmanın en iyi yollarından biridir.
-• Genç Futbolcularda Etkisi: 13-15 yaş grubu futbolcular üzerinde yapılan bir çalışmada, 8 haftalık pliyometrik antrenman programının 30 metre sürat, çeviklik ve dikey sıçrama performanslarında anlamlı iyileşmeler sağladığı kanıtlanmıştır.
-• Farklı Düzlemler: Başka bir araştırma, pliyometrik çalışmaların öne doğru (sagittal) veya yana doğru (frontal) yapılmasının fark etmeksizin her iki durumda da 10 metre sürat ve bacak kuvvetini geliştirdiğini göstermiştir.
-Bu veriler, kuvvet antrenmanlarının pliyometrik egzersizlerle desteklendiğinde sürati doğrudan artırdığını doğrulamaktadır.
-3. Dirençli Koşular: Paraşüt Antrenmanı
-Sürati artırmanın bir diğer etkili yolu, koşu sırasında vücuda ekstra direnç uygulamaktır. Genç kadın futbolcular üzerinde yapılan güncel bir çalışma (2024), 6 hafta boyunca uygulanan paraşüt antrenmanlarının (arkaya bağlanan direnç paraşütü ile koşu), sadece normal antrenman yapan gruba kıyasla sürat, ivmelenme ve çeviklik değerlerinde anlamlı düzeyde gelişme sağladığını ortaya koymuştur,.
-4. Şaşırtıcı Bulgular: Her Kuvvet Hız Demek Değildir
-Kuvvet ve sürat arasındaki ilişki her zaman doğrusal değildir. Araştırmalar, bazı kuvvet türlerinin veya testlerinin süratle doğrudan ilişkili çıkmadığını da göstermektedir:
-• Squat ve Sürat İlişkisi: Bir çalışmada, bacak kuvveti sürati artırırken, spesifik olarak "Squat" (çömelme) kuvveti ile sürat performansı arasında istatistiksel olarak anlamlı bir ilişki bulunamamıştır.
-• Patlayıcı Güç ve Sürat: 17 yaşındaki futbolcular üzerinde yapılan başka bir araştırmada, patlayıcı kuvvetin bir göstergesi olan "Durarak Uzun Atlama" mesafesi ile 30 metre sürat performansı arasında anlamlı bir ilişki tespit edilememiştir. Benzer şekilde, 10-13 yaş grubu kız çocuklarında yapılan bir çalışmada da bacak kuvveti ile sürat koşusu arasında istatistiksel bir ilişki bulunmamıştır.
-Bu durum; yaş, cinsiyet ve antrenman geçmişinin (spor yaşı) sonuçları değiştirebileceğini ve sadece "güçlü" olmanın otomatik olarak "hızlı" olmak anlamına gelmediğini, bu gücün tekniğe ve hıza transfer edilmesi gerektiğini göstermektedir.
-Sonuç ve Öneriler
-Bilimsel veriler ışığında, daha hızlı olmak isteyen sporcular için yol haritası nettir:
-1. Maksimal Kuvvet Temeldir: Bacak ve ekstansiyon kuvvetini artırmak, sürat potansiyelinizi yükseltir.
-2. Kombine Çalışma Şarttır: Sadece ağırlık çalışmak yerine, antrenman programına pliyometrik (sıçrama) ve paraşüt gibi dirençli koşu antrenmanları eklenmelidir,.
-3. Yaş ve Seviye Faktörü: Genç yaş gruplarında veya spora yeni başlayanlarda kuvvet ve sürat ilişkisi hemen görülmeyebilir; sabırlı ve planlı bir gelişim süreci izlenmelidir.
-Unutmayın; kuvvetli kaslar arabanın motoruysa, sürat antrenmanları o motorun beygir gücünü yola aktaran tekerleklerdir. İkisi bir arada olduğunda rekorlar kırılır.
+      Sporda başarıya giden yolda "sürat" her zaman belirleyici bir faktör olmuştur. Futbol sahasından atletizm pistine kadar her branşta, sporcuların ve antrenörlerin aklındaki en büyük soru şudur: Sadece koşarak hızlanabilir miyim, yoksa ağırlık salonunda harcanan zaman beni daha hızlı yapar mı?
 
-Kaynakça
-• Ergin, R., Çakır, H. İ. ve Kuzur, F. (2025). Futbolda Patlayıcı Kuvvet ile Sürat Arasındaki İlişki. Spor Eğitim Dergisi, 9(1), 116-124,.
-• Hekim, M. (2012). Atletizm ve Basketbol Sporuna Katılan 10-13 Yaş Grubu Kız Çocukların Kuvvet ve Anaerobik Güç Değerlerinin Sürat Performansı ve Kan Laktat Seviyesine Etkisi (Yüksek Lisans Tezi). Sakarya Üniversitesi Eğitim Bilimleri Enstitüsü, Sakarya,.
-• İrgin, M. (2016). Maksimal Kuvvetin Sürat Performansı Üzerine Etkisi (Yüksek Lisans Tezi). Selçuk Üniversitesi Sağlık Bilimleri Enstitüsü, Konya,.
-• Kocaman, E. (2024). Genç Futbolcularda Paraşüt Antrenmanlarının Sürat, İvmelenme, Çeviklik ve Patlayıcı Kuvvet Üzerine Etkisi (Yüksek Lisans Tezi). Kırşehir Ahi Evran Üniversitesi Sağlık Bilimleri Enstitüsü, Kırşehir,.
-• Nalbant, Ö. ve Kınık, A. M. (2018). Futbolcularda Farklı Düzlemlerde Yapılan Pliyometrik Antrenmanların Sürat ve Kuvvet Performansına Etkileri. Beden Eğitimi ve Spor Araştırmaları Dergisi (BESAD), 10(1), 72-82,.
-• Özbar, N., Duran, D., Duran, S. ve Köksalan, B. (2020). 8 Haftalık Pliometrik Antrenmanın 13-15 Yaş Erkek Futbolcularda Sürat, Çeviklik ve Kuvvet Performansı Üzerine Etkisi. Düzce Üniversitesi Sağlık Bilimleri Enstitüsü Dergisi, 10(2), 194-200,.      
-`
-  }
+      Bilimsel araştırmalar, bu sorunun cevabının "evet" olduğunu, ancak bu ilişkinin sandığımızdan daha karmaşık detaylar içerdiğini göstermektedir. Bu yazıda, kuvvet antrenmanlarının (maksimal kuvvet, pliyometrik ve direnç çalışmaları) sürat performansı üzerindeki etkilerini inceleyen akademik çalışmaları mercek altına alıyoruz.
+
+      1. Temel Teori: Maksimal Kuvvet ve Sürat İlişkisi
+      Sürat, vücudun bir yerden bir yere en kısa sürede yer değiştirebilme yeteneğidir. Ancak bu yetenek, kasların üretebildiği kuvvetten bağımsız değildir. Yapılan araştırmalar, maksimal kuvvetin (bir sporcunun bir defada kaldırabildiği en yüksek ağırlık), sürat ve güç üretiminin temelini oluşturduğunu gösterir. Elazığ Spor Kulübü futbolcuları üzerinde yapılan bir yüksek lisans tezinde, sporcuların ortalama kuvvet değerlerinin sürat performansının yaklaşık %24,8'ini açıkladığı tespit edilmiştir.
+
+      2. Pliyometrik Antrenmanlar: Kasları Patlayıcı Hale Getirmek
+      Sadece ağırlık kaldırmak yeterli değildir; kuvvetin hıza dönüşmesi gerekir. Pliyometrik çalışmalar, kasın kasılma ve gevşeme döngüsünü kullanarak kas gücü kapasitesini artırmanın en iyi yollarından biridir. 13-15 yaş grubu futbolcular üzerinde yapılan bir çalışmada, 8 haftalık pliyometrik antrenman programının 30 metre sürat, çeviklik ve dikey sıçrama performanslarında anlamlı iyileşmeler sağladığı kanıtlanmıştır.
+
+      3. Dirençli Koşular: Paraşüt Antrenmanı
+      Genç kadın futbolcular üzerinde yapılan güncel bir çalışma (2024), 6 hafta boyunca uygulanan paraşüt antrenmanlarının normal antrenman yapan gruba kıyasla sürat, ivmelenme ve çeviklik değerlerinde anlamlı düzeyde gelişme sağladığını ortaya koymuştur.
+
+      4. Şaşırtıcı Bulgular: Her Kuvvet Hız Demek Değildir
+      Kuvvet ve sürat arasındaki ilişki her zaman doğrusal değildir. 17 yaşındaki futbolcular üzerinde yapılan bir araştırmada, "Durarak Uzun Atlama" mesafesi ile 30 metre sürat performansı arasında anlamlı bir ilişki tespit edilememiştir. Bu, sadece "güçlü" olmanın otomatik olarak "hızlı" olmak anlamına gelmediğini, gücün tekniğe ve hıza transfer edilmesi gerektiğini gösterir.
+
+      Sonuç: Bacak ve ekstansiyon kuvvetini artırmak sürat potansiyelinizi yükseltir; ancak ağırlık çalışması mutlaka pliyometrik ve dirençli koşu antrenmanlarıyla desteklenmelidir. Genç yaş gruplarında kuvvet-sürat ilişkisi hemen görülmeyebilir; sabırlı ve planlı bir gelişim süreci gerekir.
+
+      Kuvvetli kaslar arabanın motoruysa, sürat antrenmanları o motorun gücünü yola aktaran tekerleklerdir. İkisi bir arada olduğunda rekorlar kırılır.
+    `
+  },
 ];

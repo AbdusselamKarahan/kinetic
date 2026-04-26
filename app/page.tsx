@@ -904,7 +904,13 @@ export default function Home() {
 
             <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row gap-4 justify-between items-center text-xs text-gray-500">
               <p className="font-medium">{t.footer}</p>
-              <p className="font-medium">{lang === 'tr' ? 'Tasarım & geliştirme: KINETIC' : 'Designed & built: KINETIC'}</p>
+              <div className="flex items-center gap-5 font-medium">
+                <Link href="/gizlilik" className="hover:text-white transition-colors">
+                  {lang === 'tr' ? 'Gizlilik & KVKK' : 'Privacy & KVKK'}
+                </Link>
+                <span className="text-white/20">·</span>
+                <span>{lang === 'tr' ? 'Tasarım & geliştirme: KINETIC' : 'Designed & built: KINETIC'}</span>
+              </div>
             </div>
           </div>
         </footer>

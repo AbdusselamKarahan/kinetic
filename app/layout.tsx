@@ -99,8 +99,11 @@ const jsonLd = {
   ],
 }
 
-// ── Google Analytics Measurement ID — kendi ID'nizi buraya girin ──
-const GA_ID = 'G-XXXXXXXXXX'
+// ── Analytics ID'leri — gerçek ID girilmediği sürece scriptler yüklenmez ──
+const GA_ID      = process.env.NEXT_PUBLIC_GA_ID      ?? ''
+const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID ?? ''
+const gaEnabled      = GA_ID.length      > 0 && GA_ID      !== 'G-XXXXXXXXXX'
+const clarityEnabled = CLARITY_ID.length > 0 && CLARITY_ID !== 'XXXXXXXXXX'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -109,29 +112,34 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* JSON-LD Structured Data */}
         <Script id="json-ld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} strategy="beforeInteractive" />
 
-        {/* Google Analytics — consent-first (varsayılan: reddedildi, banner onayı gerekiyor) */}
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
-        <Script id="ga-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          // Consent Mode v2: Varsayılan DENIED — cookie banner onayı gerekiyor
-          gtag('consent', 'default', {
-            analytics_storage: 'denied',
-            ad_storage: 'denied',
-            wait_for_update: 2000
-          });
-          gtag('config', '${GA_ID}', { send_page_view: false });
-        `}} />
+        {/* Google Analytics — sadece gerçek ID varsa yüklenir + Consent Mode v2 (default DENIED) */}
+        {gaEnabled && (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+            <Script id="ga-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('consent', 'default', {
+                analytics_storage: 'denied',
+                ad_storage: 'denied',
+                wait_for_update: 2000
+              });
+              gtag('config', '${GA_ID}', { send_page_view: false });
+            `}} />
+          </>
+        )}
 
-        {/* Microsoft Clarity — kendi ID'nizi buraya girin */}
-        <Script id="clarity-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
-          (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "XXXXXXXXXX");
-        `}} />
+        {/* Microsoft Clarity — sadece gerçek ID varsa yüklenir */}
+        {clarityEnabled && (
+          <Script id="clarity-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "${CLARITY_ID}");
+          `}} />
+        )}
       </head>
       <body className={`${manrope.variable} ${montserrat.variable} font-sans bg-[#f9f9f9] text-[#0a0a0a] antialiased overflow-x-hidden`}>
         <PageTransition>
