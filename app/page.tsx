@@ -153,6 +153,9 @@ export default function Home() {
         )}
       </AnimatePresence>
 
+      {/* ── COOKIE BANNER ── */}
+      <CookieBanner lang={lang} />
+
       {/* ── SABİT WHATSAPP ── */}
       <motion.a
         initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}
