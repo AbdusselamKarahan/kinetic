@@ -11,6 +11,8 @@ import LoadingScreen from './components/LoadingScreen'
 import ScrollReveal from './components/ScrollReveal'
 import Reveal from './components/Reveal'
 import CountUp from './components/CountUp'
+import BlogCarousel from './components/BlogCarousel'
+import CalorieCalculator from './components/CalorieCalculator'
 import { translations, statsData, type Lang } from './translations'
 
 /* ══════════════════════════════════════════════════════════
@@ -644,24 +646,17 @@ export default function Home() {
                   {t.blog.seeAll}
                 </Link>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10">
-                {blogPosts.map((post, i) => (
-                  <Reveal key={i} direction="up" delay={i * 0.12} duration={0.75} distance={50}>
-                  <Link href={`/blog/${post.id}`} className="group cursor-pointer block">
-                    <div className="w-full aspect-video rounded-xl overflow-hidden mb-4 md:mb-6 relative" style={{ background: isDark ? '#1a1a1a' : '#e5e5e5' }}>
-                      <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition duration-500 z-10" aria-hidden="true" />
-                      <ScrollReveal fill duration={1.5}>
-                        <Image src={post.image} alt={`${post.title} – blog görseli`}
-                          fill sizes="(min-width: 768px) 33vw, 100vw"
-                          className="object-cover" />
-                      </ScrollReveal>
-                    </div>
-                    <span className="text-xs font-bold tracking-widest uppercase mb-2 md:mb-3 block" style={{ color: muted }}>{post.category}</span>
-                    <h3 className="text-xl md:text-2xl font-bold leading-snug group-hover:opacity-60 transition-opacity" style={{ color: clr }}>{post.title}</h3>
-                  </Link>
-                  </Reveal>
-                ))}
-              </div>
+              <BlogCarousel
+                posts={blogPosts}
+                isDark={isDark}
+                bg={bg}
+                clr={clr}
+                muted={muted}
+                bord={bord}
+                prevLabel={lang === 'tr' ? 'Önceki yazılar' : 'Previous posts'}
+                nextLabel={lang === 'tr' ? 'Sonraki yazılar' : 'Next posts'}
+                pageLabel={lang === 'tr' ? 'Sayfa' : 'Page'}
+              />
               <div className="mt-10 flex justify-center md:hidden">
                 <Link href="/blog" className="px-8 py-4 font-bold uppercase tracking-widest rounded-full touch-manipulation" style={{ background: clr, color: bg, minHeight: 52, display:'inline-flex', alignItems:'center' }}>
                   {t.blog.seeAll}
@@ -700,6 +695,17 @@ export default function Home() {
             </div>
           </section>
 
+
+          {/* ── KALORİ HESAPLAYICI ── */}
+          <CalorieCalculator
+            lang={lang}
+            bg={bg}
+            surf={surf}
+            clr={clr}
+            muted={muted}
+            bord={bord}
+            isDark={isDark}
+          />
 
           {/* ── PERFORMANS İSTATİSTİKLERİ ── */}
           <section aria-label={lang === 'tr' ? 'Performans İstatistikleri' : 'Performance Stats'} className="py-20 md:py-28 border-t" style={{ borderColor: bord, background: bg }}>
