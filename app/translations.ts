@@ -11,7 +11,7 @@ export const translations = {
       tag: 'Elite Performans', line1: 'Potansiyelini', line2: 'Özgür Bırak',
       desc: 'Sıradan antrenmanları unutun. Atletizm temelli bilimsel metotlarla gücünüzü, hızınızı ve dayanıklılığınızı yeniden inşa ediyoruz.',
       cta: 'Analiz Randevusu',
-      imgAlt: 'Isparta KINETIC atletizm sahası – sprint antrenmanı',
+      imgAlt: 'KINETIC atletizm sahası – sprint antrenmanı',
     },
     video: { title: 'Mazeret Yok. Sadece Sonuç.', desc: 'Saha uygulamalarımızın yoğunluğunu ve disiplinini hisset.' },
     programs: {
@@ -44,7 +44,7 @@ export const translations = {
       role: 'Kurucu & Baş Antrenör',
       name: 'Abdusselam\nKARAHAN.',
       bio1: "Burdur Mehmet Akif Ersoy Üniversitesi (MAKÜ) Beden Eğitimi ve Spor Öğretmenliği akademik altyapısı ile sahada geçen 10 yılı aşkın sporculuk kariyerini sentezleyen vizyoner bir yaklaşım.",
-      bio2: "Klasik antrenman metotlarının ötesinde, atletizm branşının temel mekaniklerini tüm spor disiplinlerine entegre ediyoruz. 2. Kademe Temel Antrenörlük vizyonuyla, sporu bir hobi olmaktan çıkarıp Isparta'da elit performans yönetimine dönüştürüyoruz.",
+      bio2: "Klasik antrenman metotlarının ötesinde, atletizm branşının temel mekaniklerini tüm spor disiplinlerine entegre ediyoruz. 2. Kademe Temel Antrenörlük vizyonuyla, sporu bir hobi olmaktan çıkarıp elit performans yönetimine dönüştürüyoruz.",
       badges: ['Beden Eğitimi Mezunu', '2. Kademe Antrenör', '10+ Yıl Kariyer'],
       imgAlt: 'Abdusselam Karahan – KINETIC Performans Baş Antrenörü ve Kurucusu',
     },
@@ -53,7 +53,7 @@ export const translations = {
       title: 'Sıkça Sorulan Sorular', subtitle: 'Aklınızdaki soru işaretlerini başlamadan giderelim.',
       items: [
         { q:'Sadece profesyonel sporcularla mı çalışıyorsunuz?', a:'Hayır. Spora yeni başlayan, sağlıklı bir yaşama adım atmak isteyen veya BESYO/POMEM gibi özel parkur sınavlarına hazırlanan herkesle, seviyelerine uygun şekilde çalışıyoruz.' },
-        { q:'Antrenmanlar nerede yapılıyor?', a:"Programın türüne göre Isparta içindeki uygun atletizm pistlerinde, parklarda veya anlaşmalı spor tesislerinde saha uygulamalarımızı gerçekleştiriyoruz." },
+        { q:'Antrenmanlar nerede yapılıyor?', a:"Programın türüne göre uygun atletizm pistlerinde, parklarda veya anlaşmalı spor tesislerinde saha uygulamalarımızı gerçekleştiriyoruz." },
         { q:'Beslenme programı yazıyor musunuz?', a:'Performans koçluğu antrenman bilimine odaklanır. Beslenme konusunda genel stratejik tavsiyeler vermekle birlikte, klinik diyet programları için uzman diyetisyenlerle ortaklaşa ilerlemeyi tercih ediyoruz.' },
       ],
     },
@@ -61,7 +61,7 @@ export const translations = {
     contact: {
       title: 'HAYALLERİNİ\nMASADA BIRAKMA.',
       subtitle: 'Sana özel çalışma şartları, uygun saatler ve program fiyatlandırmaları hakkında görüşmek için hemen iletişim formunu doldur.',
-      location: 'Isparta, Türkiye',
+      location: 'Türkiye',
       nameLabel: 'İsim Soyisim', namePlaceholder: 'Adınızı giriniz',
       programLabel: 'İlgilendiğiniz Program', programDefault: 'Program Seçiniz',
       programs: ['Birebir Performans Koçluğu', 'BESYO/POMEM Sınav Hazırlığı', 'Takım/Grup Eğitimleri', 'Diğer'],
@@ -82,7 +82,7 @@ export const translations = {
       tag: 'Elite Performance', line1: 'Unleash Your', line2: 'Potential.',
       desc: 'Forget ordinary training. We rebuild your strength, speed and endurance through athletics-based, science-driven methods.',
       cta: 'Book Analysis',
-      imgAlt: 'KINETIC athletics field in Isparta – sprint training session',
+      imgAlt: 'KINETIC athletics field – sprint training session',
     },
     video: { title: 'No Excuses. Just Results.', desc: 'Feel the intensity and discipline of our field sessions.' },
     programs: {
@@ -115,7 +115,7 @@ export const translations = {
       role: 'Founder & Head Coach',
       name: 'Abdusselam\nKARAHAN.',
       bio1: "A visionary approach synthesizing an academic background from Burdur Mehmet Akif Ersoy University's Physical Education department with over 10 years of competitive athletic career.",
-      bio2: "Beyond classic methods, we integrate the core mechanics of athletics into all sports disciplines. With a Level 2 Coaching vision, we transform sport into elite performance management in Isparta.",
+      bio2: "Beyond classic methods, we integrate the core mechanics of athletics into all sports disciplines. With a Level 2 Coaching vision, we transform sport into elite performance management.",
       badges: ['Physical Education Graduate', 'Level 2 Coach', '10+ Year Career'],
       imgAlt: 'Abdusselam Karahan – KINETIC Performance Head Coach and Founder',
     },
@@ -124,7 +124,7 @@ export const translations = {
       title: 'Frequently Asked Questions', subtitle: "Let's clear up any doubts before you start.",
       items: [
         { q:'Do you only work with professional athletes?', a:'No. We work with everyone — beginners, those seeking a healthier lifestyle, or candidates preparing for specific fitness exams like BESYO/POMEM — at a level suitable for them.' },
-        { q:'Where do sessions take place?', a:'Depending on the program, we conduct sessions on suitable athletics tracks, parks, or partner sports facilities in Isparta.' },
+        { q:'Where do sessions take place?', a:'Depending on the program, we conduct sessions on suitable athletics tracks, parks, or partner sports facilities.' },
         { q:'Do you write nutrition programs?', a:'Performance coaching focuses on training science. We provide general nutritional strategy advice, but prefer to partner with specialist dietitians for clinical dietary programs.' },
       ],
     },
@@ -132,7 +132,7 @@ export const translations = {
     contact: {
       title: "DON'T LEAVE YOUR\nDREAMS ON THE TABLE.",
       subtitle: 'Fill out the contact form to discuss tailored terms, available schedules, and program pricing.',
-      location: 'Isparta, Turkey',
+      location: 'Turkey',
       nameLabel: 'Full Name', namePlaceholder: 'Enter your name',
       programLabel: 'Program of Interest', programDefault: 'Select a Program',
       programs: ['1-on-1 Performance Coaching', 'BESYO/POMEM Exam Prep', 'Team/Group Training', 'Other'],

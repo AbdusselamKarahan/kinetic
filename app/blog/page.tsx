@@ -1,7 +1,9 @@
 import { blogPosts } from './data'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowLeft, ArrowRight, Calendar } from 'lucide-react'
 import type { Metadata } from 'next'
+import ScrollReveal from '../components/ScrollReveal'
 
 export const metadata: Metadata = {
   title: 'Blog & Bilgi Bankası',
@@ -65,13 +67,16 @@ export default function BlogListPage() {
             style={{ borderColor: 'var(--page-border,rgba(0,0,0,0.08))', background: 'var(--page-surface,#fff)' }}
           >
             <div className="h-64 md:h-80 lg:h-full overflow-hidden relative">
-              <img
-                src={featured.image}
-                alt={featured.title}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
-                loading="eager"
-                decoding="async"
-              />
+              <ScrollReveal fill duration={1.7} amount={0.2}>
+                <Image
+                  src={featured.image}
+                  alt={featured.title}
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </ScrollReveal>
               <div className="absolute top-4 left-4">
                 <span className="px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest"
                   style={{ background: 'var(--page-text,#0a0a0a)', color: 'var(--page-bg,#f9f9f9)' }}>
@@ -117,13 +122,15 @@ export default function BlogListPage() {
                 style={{ borderColor: 'var(--page-border,rgba(0,0,0,0.08))', background: 'var(--page-surface,#fff)' }}
               >
                 <div className="h-48 overflow-hidden relative">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
-                    loading="lazy"
-                    decoding="async"
-                  />
+                  <ScrollReveal fill duration={1.4}>
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover"
+                    />
+                  </ScrollReveal>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center gap-3 mb-4">
